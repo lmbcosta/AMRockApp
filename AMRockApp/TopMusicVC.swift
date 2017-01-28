@@ -40,12 +40,6 @@ class TopMusicVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return names.count
     }
-    
-    @IBAction func buttonBackPressed(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
-    
-
 
     /*
     // MARK: - Navigation
@@ -58,6 +52,6 @@ class TopMusicVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     */
 
     @IBAction func topVideosPressedButton(_ sender: UIButton) {
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: false, completion: nil)
     }
 }
