@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49B93D3A1E3BA9DB004D7A04 /* TopMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D391E3BA9DB004D7A04 /* TopMusicVC.swift */; };
+		49B93D3C1E3BBB2B004D7A04 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D3B1E3BBB2B004D7A04 /* MusicTableViewCell.swift */; };
+		49B93D3E1E3BC36F004D7A04 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D3D1E3BC36F004D7A04 /* Song.swift */; };
+		49B93D431E3BD59C004D7A04 /* Faktos.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */; };
+		49B93D441E3BD59C004D7A04 /* FaktosContour.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */; };
+		49B93D451E3BD59C004D7A04 /* FaktosOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */; };
+		49B93D461E3BD59C004D7A04 /* FaktosShadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */; };
+		49FDE22F1E3A8B22003C4D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE22E1E3A8B22003C4D34 /* AppDelegate.swift */; };
+		49FDE2311E3A8B22003C4D34 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE2301E3A8B22003C4D34 /* MainVC.swift */; };
+		49FDE2341E3A8B22003C4D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDE2321E3A8B22003C4D34 /* Main.storyboard */; };
+		49FDE2361E3A8B22003C4D34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FDE2351E3A8B22003C4D34 /* Assets.xcassets */; };
+		49FDE2391E3A8B22003C4D34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDE2371E3A8B22003C4D34 /* LaunchScreen.storyboard */; };
+		49FDE2421E3A8F83003C4D34 /* California Rad 4.otf in Resources */ = {isa = PBXBuildFile; fileRef = 49FDE2411E3A8F83003C4D34 /* California Rad 4.otf */; };
+		49FDE2471E3A90F0003C4D34 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE2461E3A90F0003C4D34 /* VideoVC.swift */; };
+		49FDE2491E3A924D003C4D34 /* AMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE2481E3A924D003C4D34 /* AMTableViewCell.swift */; };
+		49FDE24B1E3A935B003C4D34 /* AMCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE24A1E3A935B003C4D34 /* AMCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49B93D391E3BA9DB004D7A04 /* TopMusicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMusicVC.swift; sourceTree = "<group>"; };
+		49B93D3B1E3BBB2B004D7A04 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		49B93D3D1E3BC36F004D7A04 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Faktos.ttf; sourceTree = "<group>"; };
+		49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosContour.ttf; sourceTree = "<group>"; };
+		49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosOutline.ttf; sourceTree = "<group>"; };
+		49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosShadow.ttf; sourceTree = "<group>"; };
+		49FDE22B1E3A8B22003C4D34 /* AMRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FDE22E1E3A8B22003C4D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49FDE2301E3A8B22003C4D34 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		49FDE2331E3A8B22003C4D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49FDE2351E3A8B22003C4D34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FDE2381E3A8B22003C4D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49FDE23A1E3A8B22003C4D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49FDE2411E3A8F83003C4D34 /* California Rad 4.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "California Rad 4.otf"; sourceTree = "<group>"; };
+		49FDE2461E3A90F0003C4D34 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		49FDE2481E3A924D003C4D34 /* AMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMTableViewCell.swift; sourceTree = "<group>"; };
+		49FDE24A1E3A935B003C4D34 /* AMCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49FDE2281E3A8B22003C4D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49FDE2221E3A8B22003C4D34 = {
+			isa = PBXGroup;
+			children = (
+				49FDE22D1E3A8B22003C4D34 /* AMRockApp */,
+				49FDE22C1E3A8B22003C4D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49FDE22C1E3A8B22003C4D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49FDE22B1E3A8B22003C4D34 /* AMRockApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49FDE22D1E3A8B22003C4D34 /* AMRockApp */ = {
+			isa = PBXGroup;
+			children = (
+				49FDE2431E3A908F003C4D34 /* Model */,
+				49FDE2441E3A909C003C4D34 /* View */,
+				49FDE2451E3A90A9003C4D34 /* Controller */,
+				49FDE2401E3A8F59003C4D34 /* Files */,
+				49FDE22E1E3A8B22003C4D34 /* AppDelegate.swift */,
+				49FDE2321E3A8B22003C4D34 /* Main.storyboard */,
+				49FDE2351E3A8B22003C4D34 /* Assets.xcassets */,
+				49FDE2371E3A8B22003C4D34 /* LaunchScreen.storyboard */,
+				49FDE23A1E3A8B22003C4D34 /* Info.plist */,
+			);
+			path = AMRockApp;
+			sourceTree = "<group>";
+		};
+		49FDE2401E3A8F59003C4D34 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */,
+				49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */,
+				49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */,
+				49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */,
+				49FDE2411E3A8F83003C4D34 /* California Rad 4.otf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		49FDE2431E3A908F003C4D34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49FDE24A1E3A935B003C4D34 /* AMCell.swift */,
+				49B93D3D1E3BC36F004D7A04 /* Song.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		49FDE2441E3A909C003C4D34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49FDE2481E3A924D003C4D34 /* AMTableViewCell.swift */,
+				49B93D3B1E3BBB2B004D7A04 /* MusicTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		49FDE2451E3A90A9003C4D34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				49FDE2301E3A8B22003C4D34 /* MainVC.swift */,
+				49FDE2461E3A90F0003C4D34 /* VideoVC.swift */,
+				49B93D391E3BA9DB004D7A04 /* TopMusicVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49FDE22A1E3A8B22003C4D34 /* AMRockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FDE23D1E3A8B22003C4D34 /* Build configuration list for PBXNativeTarget "AMRockApp" */;
+			buildPhases = (
+				49FDE2271E3A8B22003C4D34 /* Sources */,
+				49FDE2281E3A8B22003C4D34 /* Frameworks */,
+				49FDE2291E3A8B22003C4D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMRockApp;
+			productName = AMRockApp;
+			productReference = 49FDE22B1E3A8B22003C4D34 /* AMRockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49FDE2231E3A8B22003C4D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Luis  Costa";
+				TargetAttributes = {
+					49FDE22A1E3A8B22003C4D34 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 423W5F3JD5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49FDE2261E3A8B22003C4D34 /* Build configuration list for PBXProject "AMRockApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49FDE2221E3A8B22003C4D34;
+			productRefGroup = 49FDE22C1E3A8B22003C4D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49FDE22A1E3A8B22003C4D34 /* AMRockApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49FDE2291E3A8B22003C4D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FDE2391E3A8B22003C4D34 /* LaunchScreen.storyboard in Resources */,
+				49B93D431E3BD59C004D7A04 /* Faktos.ttf in Resources */,
+				49B93D461E3BD59C004D7A04 /* FaktosShadow.ttf in Resources */,
+				49FDE2361E3A8B22003C4D34 /* Assets.xcassets in Resources */,
+				49B93D451E3BD59C004D7A04 /* FaktosOutline.ttf in Resources */,
+				49FDE2421E3A8F83003C4D34 /* California Rad 4.otf in Resources */,
+				49FDE2341E3A8B22003C4D34 /* Main.storyboard in Resources */,
+				49B93D441E3BD59C004D7A04 /* FaktosContour.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49FDE2271E3A8B22003C4D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B93D3A1E3BA9DB004D7A04 /* TopMusicVC.swift in Sources */,
+				49FDE2471E3A90F0003C4D34 /* VideoVC.swift in Sources */,
+				49FDE2491E3A924D003C4D34 /* AMTableViewCell.swift in Sources */,
+				49FDE24B1E3A935B003C4D34 /* AMCell.swift in Sources */,
+				49B93D3C1E3BBB2B004D7A04 /* MusicTableViewCell.swift in Sources */,
+				49FDE2311E3A8B22003C4D34 /* MainVC.swift in Sources */,
+				49FDE22F1E3A8B22003C4D34 /* AppDelegate.swift in Sources */,
+				49B93D3E1E3BC36F004D7A04 /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49FDE2321E3A8B22003C4D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FDE2331E3A8B22003C4D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49FDE2371E3A8B22003C4D34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49FDE2381E3A8B22003C4D34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49FDE23B1E3A8B22003C4D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49FDE23C1E3A8B22003C4D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49FDE23E1E3A8B22003C4D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423W5F3JD5;
+				INFOPLIST_FILE = AMRockApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lmbcosta.AMRockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49FDE23F1E3A8B22003C4D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 423W5F3JD5;
+				INFOPLIST_FILE = AMRockApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lmbcosta.AMRockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FDE2261E3A8B22003C4D34 /* Build configuration list for PBXProject "AMRockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDE23B1E3A8B22003C4D34 /* Debug */,
+				49FDE23C1E3A8B22003C4D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49FDE23D1E3A8B22003C4D34 /* Build configuration list for PBXNativeTarget "AMRockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49FDE23E1E3A8B22003C4D34 /* Debug */,
+				49FDE23F1E3A8B22003C4D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49FDE2231E3A8B22003C4D34 /* Project object */;
+}
