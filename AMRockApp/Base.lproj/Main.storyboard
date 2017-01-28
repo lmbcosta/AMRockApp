@@ -103,7 +103,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xiX-xa-Rij">
-                                                    <rect key="frame" x="270" y="23.5" width="42" height="42"/>
+                                                    <rect key="frame" x="270" y="23" width="42" height="42"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="42" id="DDh-ui-fya"/>
                                                         <constraint firstAttribute="width" constant="42" id="hdj-T7-Zd9"/>

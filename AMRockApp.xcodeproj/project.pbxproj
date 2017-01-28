@@ -10,10 +10,6 @@
 		49B93D3A1E3BA9DB004D7A04 /* TopMusicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D391E3BA9DB004D7A04 /* TopMusicVC.swift */; };
 		49B93D3C1E3BBB2B004D7A04 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D3B1E3BBB2B004D7A04 /* MusicTableViewCell.swift */; };
 		49B93D3E1E3BC36F004D7A04 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B93D3D1E3BC36F004D7A04 /* Song.swift */; };
-		49B93D431E3BD59C004D7A04 /* Faktos.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */; };
-		49B93D441E3BD59C004D7A04 /* FaktosContour.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */; };
-		49B93D451E3BD59C004D7A04 /* FaktosOutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */; };
-		49B93D461E3BD59C004D7A04 /* FaktosShadow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */; };
 		49FDE22F1E3A8B22003C4D34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE22E1E3A8B22003C4D34 /* AppDelegate.swift */; };
 		49FDE2311E3A8B22003C4D34 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FDE2301E3A8B22003C4D34 /* MainVC.swift */; };
 		49FDE2341E3A8B22003C4D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49FDE2321E3A8B22003C4D34 /* Main.storyboard */; };
@@ -29,10 +25,6 @@
 		49B93D391E3BA9DB004D7A04 /* TopMusicVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopMusicVC.swift; sourceTree = "<group>"; };
 		49B93D3B1E3BBB2B004D7A04 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
 		49B93D3D1E3BC36F004D7A04 /* Song.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
-		49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Faktos.ttf; sourceTree = "<group>"; };
-		49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosContour.ttf; sourceTree = "<group>"; };
-		49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosOutline.ttf; sourceTree = "<group>"; };
-		49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FaktosShadow.ttf; sourceTree = "<group>"; };
 		49FDE22B1E3A8B22003C4D34 /* AMRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49FDE22E1E3A8B22003C4D34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49FDE2301E3A8B22003C4D34 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -92,10 +84,6 @@
 		49FDE2401E3A8F59003C4D34 /* Files */ = {
 			isa = PBXGroup;
 			children = (
-				49B93D3F1E3BD59C004D7A04 /* Faktos.ttf */,
-				49B93D401E3BD59C004D7A04 /* FaktosContour.ttf */,
-				49B93D411E3BD59C004D7A04 /* FaktosOutline.ttf */,
-				49B93D421E3BD59C004D7A04 /* FaktosShadow.ttf */,
 				49FDE2411E3A8F83003C4D34 /* California Rad 4.otf */,
 			);
 			name = Files;
@@ -190,13 +178,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				49FDE2391E3A8B22003C4D34 /* LaunchScreen.storyboard in Resources */,
-				49B93D431E3BD59C004D7A04 /* Faktos.ttf in Resources */,
-				49B93D461E3BD59C004D7A04 /* FaktosShadow.ttf in Resources */,
 				49FDE2361E3A8B22003C4D34 /* Assets.xcassets in Resources */,
-				49B93D451E3BD59C004D7A04 /* FaktosOutline.ttf in Resources */,
 				49FDE2421E3A8F83003C4D34 /* California Rad 4.otf in Resources */,
 				49FDE2341E3A8B22003C4D34 /* Main.storyboard in Resources */,
-				49B93D441E3BD59C004D7A04 /* FaktosContour.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
